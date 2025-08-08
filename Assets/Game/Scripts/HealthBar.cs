@@ -2,6 +2,7 @@ using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(RectTransform))]
 public class HealthBar : MonoBehaviour
 {
     [Header("Heal Flash Settings")]
