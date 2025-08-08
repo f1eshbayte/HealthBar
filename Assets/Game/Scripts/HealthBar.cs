@@ -79,7 +79,6 @@ public class HealthBar : MonoBehaviour
             .Append(_fillImage.DOColor(_origColor, _damageFlashBackTime));
     }
 
-
     private void FlashOnHeal()
     {
         if (_fillImage == null) return;
@@ -92,6 +91,4 @@ public class HealthBar : MonoBehaviour
             .AppendInterval(_healFlashHoldTime)
             .Append(_fillImage.DOColor(_origColor, _healFlashBackTime));
     }
-
-
 }
